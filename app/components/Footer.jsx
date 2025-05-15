@@ -7,7 +7,7 @@ const Footer = ({isDarkMode}) => {
     const footerData =[
         {
             title:'GitHub',
-            source:'https://github.com/ashrafi4544',
+            source:'https://github.com/amir-ashrafi',
         },
         {
             title:'LinkedIn',

@@ -31,7 +31,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-
+import backgrund_dark from './R.png'
 export const assets = {
     user_image,
     code_icon,
@@ -50,6 +50,7 @@ export const assets = {
     download_icon,
     hand_icon,
     header_bg_color,
+backgrund_dark,
     moon_icon,
     sun_icon,
     arrow_icon,
