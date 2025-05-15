@@ -38,7 +38,7 @@ const Header = () => {
                whileInView={{y:0 ,opacity:1}}
                transition={{duration:0.8,delay:1}}
          href="#contact"
-        className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'>
+        className='px-10 py-3 border border-white rounded-full bg-black dark:hover:bg-darkHover text-white flex items-center gap-2 dark:bg-transparent'>
             contact me
             <Image src={assets.right_arrow_white} alt='' className='rounded-r-full w-5'/>
         </motion.a>

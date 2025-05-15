@@ -44,15 +44,15 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
     })
   return (
     <>
-      <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-70%]  '>
+      <div className='fixed top-0 right-0 w-full -z-10 translate-y-[-70%]  '>
         <Image src={isDarkMode?assets.backgrund_dark:assets.header_bg_color} alt='' className='w-full'/>
       </div>
-      <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll?'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/20':''}`}>
+      <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll?'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/15 dark:shadow-white/20':''}`}>
         <Link href={'#top'}>
             <Image src={isDarkMode?assets.logo_dark: assets.logo} className='w-28 cursor-pointer mr-14'
             alt='logo' priority={true}/>
         </Link>
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? "" :"bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"} `}>
+        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? "" :"bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-blue-900/50"} `}>
             {menuItem.map((item,index)=>(
                 <li key={index}>
                     <a className='font-Ovo' key={index} href={item.href}>
@@ -73,7 +73,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
             </button>
         </div>
         {/* ------ mobile menu -----*/}
-        <ul ref={sideMenu} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:text-white'>
+        <ul ref={sideMenu} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 dark:bg-blue-800/95 dark:text-white'>
             <div className='absolute right-6 top-6 cursor-pointer' onClick={closeMenu}>
                 <Image src={isDarkMode?assets.close_white: assets.close_black} alt='' className='w-5'/>
             </div>

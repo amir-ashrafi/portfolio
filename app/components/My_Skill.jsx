@@ -29,7 +29,7 @@ const MY_Skill = () => {
       initial={{opacity:0}}
       whileInView={{opacity:1}}
       transition={{duration:1}}
-     id='my-skill' className='w-full px-[12%] py-10 scroll-mt-20'>
+     id='my-skill' className='w-10/11 px-[12%] py-10 scroll-mt-20'>
       <motion.h2
       initial={{opacity:0 ,y:-20}}
       whileInView={{opacity:1 ,y:0}}
