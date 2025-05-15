@@ -44,7 +44,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
     })
   return (
     <>
-      <div className='fixed top-0 right-0 w-full -z-10 translate-y-[-70%]  '>
+      <div className='fixed top-0 right-0 w-10/11 -z-10 translate-y-[-70%]  '>
         <Image src={isDarkMode?assets.backgrund_dark:assets.header_bg_color} alt='' className='w-full'/>
       </div>
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll?'bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme/15 dark:shadow-white/20':''}`}>
