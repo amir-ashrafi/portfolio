@@ -1,0 +1,78 @@
+/* پایهٔ کانتینر کلی */
+.multi-orbit-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* هر لایه */
+.orbiting-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.orbiting-path {
+  position: absolute;
+  border: 2px dashed rgba(43, 146, 255, 0.401);
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.orbiting-item1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center left;
+  animation-name: orbit-rotate1;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.orbiting-item2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center left;
+  animation-name: orbit-rotate2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.orbiting-item3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center left;
+  animation-name: orbit-rotate3;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* انیمیشن گردش */
+@keyframes orbit-rotate1 {
+  from {
+    transform: rotate(0deg) translateX(80px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(80px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-rotate2 {
+  from {
+    transform: rotate(0deg) translateX(160px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(160px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-rotate3 {
+  from {
+    transform: rotate(0deg) translateX(200px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(200px) rotate(-360deg);
+  }
+}
