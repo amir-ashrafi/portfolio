@@ -41,10 +41,10 @@ const About = ({isDarkMode}) => {
          className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>I have experience in building responsive websites, optimizing performance, and working closely with designers and backend developers to deliver high-quality products. I'm always eager to learn new technologies, improve my skills, and take on new challenges in the ever-evolving world of web development.</p>
             <div className='flex justify-around m-5'>
-              <Link className='border[0.5px] border-gray-400 rounded-xl p-3 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' href={`https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin`}>
+              <Link className='border[0.5px] border-gray-400 rounded-xl p-3 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50' href={`https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin`}>
                 <CiLinkedin size={35}/>
               </Link>
-              <Link className='border[0.5px] border-gray-400 rounded-xl p-3 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' rel="stylesheet" href="https://github.com/amir-ashrafi" >
+              <Link className='border[0.5px] border-gray-400 rounded-xl p-3 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50' rel="stylesheet" href="https://github.com/amir-ashrafi" >
                 <FaGithub size={35}/>
               </Link>
             </div>
@@ -57,7 +57,7 @@ const About = ({isDarkMode}) => {
                 {infoList.map(({icon , iconDark ,title ,description},index) => (
                     <motion.li
                     whileInView={{scale:1.05}}
-                     className='border[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50' key={index}>
+                     className='border[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-light-hover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50' key={index}>
                         <Image src={isDarkMode?iconDark:icon} alt={title} className='w-7 mt-3'/>
                         <h3 className='my-4 font-semibold text-gray-700 dark:text-white '>{title}</h3>
                         <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>

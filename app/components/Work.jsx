@@ -52,7 +52,7 @@ const Work = (isDarkMode) => {
       initial={{opacity:0 }}
       whileInView={{opacity:1}}
       transition={{duration:1.1,delay:0.5}}
-      href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
+      href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full y-3 px-10 mx-auto my-20 hover:bg-light-hover duration-500 dark:text-white dark:border-white dark:hover:bg-dark-hover'>
         Show more 
         <Image src={isDarkMode ? assets.right_arrow_bold_dark:assets.right_arrow_bold} alt='Right arrow' className='w-4'/>
       </motion.a>
