@@ -71,10 +71,10 @@ backgrund_dark,
 
 export const workData = [
     {
-        title: 'Digitalshop',
-        description: 'Nextjs',
-        bgImage: '/digitalShop.png',
-        Link:'https://github.com/amir-ashrafi/digitalshop-main'
+        title: 'ADShope',
+        description: 'Fullstack E-Commerce Platform',
+        bgImage: '/adshope.gif',
+        Link:'https://adshop-main.vercel.app/'
     },
     {
         title: 'Bloglists',

@@ -6,6 +6,12 @@ import { motion } from "motion/react"
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 const About = ({isDarkMode}) => {
+  const box = {
+    width: 100,
+    height: 100,
+    backgroundColor: "#0cdcf7",
+    borderRadius: 5,
+}
   return (
     <motion.div
     initial={{opacity:0}}
@@ -29,9 +35,10 @@ const About = ({isDarkMode}) => {
        className='flex w-full flex-col lg:flex-row items-center gap-20 my-16'>
         <motion.div
         initial={{opacity:0,scale:0.9}}
+        
         whileInView={{opacity:1,scale:1}}
         transition={{duration:0.6}}
-         className='w-64 sm:w-80 rounded-3xl max-w-none'>
+         className='w-64  sm:w-80 rounded-3xl max-w-none'>
             <Image src={assets.user_image} alt='user' className='w-full rounded-3xl'/>
         </motion.div>
         <motion.div
