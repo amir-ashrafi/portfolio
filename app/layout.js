@@ -10,7 +10,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: 'Amir Ashrafi Portfolio',
+  title: 'Amirreza Ashrafi Portfolio',
   description: 'A personal portfolio website built with Next.js and Tailwind CSS.',
   openGraph: {
     title: 'Amir Ashrafi Portfolio',
