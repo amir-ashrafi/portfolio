@@ -11,5 +11,5 @@ A modern, responsive personal portfolio to showcase skills, projects, and contac
 
 ## 🌐 Live & Repo
 
-- Live: https://portfolio-jpmu.vercel.app/  
+- Live: https://portfolio-ashrafi.vercel.app/
 - GitHub: https://github.com/amir-ashrafi/portfolio
