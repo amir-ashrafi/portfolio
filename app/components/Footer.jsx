@@ -11,7 +11,7 @@ const Footer = ({isDarkMode}) => {
         },
         {
             title:'LinkedIn',
-            source:'https://linkedin.com/in/amir-ashrafi-2481222ba',
+            source:'https://www.linkedin.com/in/amirreza-ashrafi-ai/',
         },
         {
             title:'instagram',

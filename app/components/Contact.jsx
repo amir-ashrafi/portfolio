@@ -61,12 +61,12 @@ const Contact = () => {
                   initial={{opacity:0,x:-50 }}
                   whileInView={{opacity:1,x:0}}
                   transition={{duration:1.1,delay:0.6}}
-            type="text" placeholder='Enter your name' required className='flex-1 p-3 outline-hidden border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90' name='name'/>
+            type="text" placeholder='Enter your FirstName' required className='flex-1 p-3 outline-hidden border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90' name='name'/>
             <motion.input
                               initial={{opacity:0,x:50 }}
                               whileInView={{opacity:1,x:0}}
                               transition={{duration:1.1,delay:0.6}}
-             type="text" placeholder='Enter your name' required className='flex-1 p-3 outline-hidden border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90' name='email'
+             type="text" placeholder='Enter your LastName' required className='flex-1 p-3 outline-hidden border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-dark-hover/30 dark:border-white/90' name='email'
             />
         </div>
         <motion.textarea
